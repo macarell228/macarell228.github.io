@@ -199,15 +199,15 @@
 	}
 
 	.how-to-get-better-block {
-		border-color: #1861ce;
+		border: 2px solid #0555CC;
+		box-shadow: -5px 7px 17px rgba(5, 85, 204, 0.2);
 		border-radius: 10px;
-		border-style: solid;
-		box-shadow: 0 0 5px #1861ce;
 		margin: 1%;
 		max-width:600px;
-		min-width:200px;
-		overlow: hidden;
-		padding: 1%;
+		min-width:220px;
+		/*
+		overflow: hidden;
+		padding: 20px; */
 	}
 
 	.how-to-get-better-block:hover {
@@ -221,72 +221,89 @@
 		font-family: 'Avenir Next Cyr';
 		font-style: normal;
 		font-weight: 400;
-		font-size: 14px;
-		line-height: 17px;
+		font-size: 13px;
+		line-height: 15px;
 		text-align: center;
 		letter-spacing: 0.04em;
 
 		color: #000000;
 		word-wrap: break-word;
 		}
+
+	.how-to-get-better-caption {
+		font-weight: 700;
+		font-size: 16px;
+		line-height: 20px;
+		}
+
+	.how-to-get-better-img {
+		height: 20%;
+		align: center;
+		margin-top: 10px;
+		}
 	}
 </style>
-<div align="center">
-	<h3 align="center" class="how-to-get-better-text" style="color: #153F65; font-weight: 800;font-size: 46px;line-height: 56px;"><b>Как стать лучшим</b></h3>
+<div align="center" style="padding:0px;margin:0px;">
+	<h3 align="center" class="how-to-get-better-text" style="color: #153F65; font-weight: 800;font-size: 40px;line-height: 46px;"><b>Как стать лучшим</b></h3>
 	<h4 align="center" class="how-to-get-better-text" style="font-weight: 700;font-size: 25px;line-height: 31px;color:#153F65;">Колледж “Инфолайн” предоставляет возможности:</h4>
-	<div class="container px-4">
-    <div class="row">
+	<div class=".container-fluid" style="
+			margin-left: 4% !important;
+			margin-right: 4% !important;
+			max-width: 100%;
+">
+    <div class="row justify-content-between">
         <div class="col-sm how-to-get-better-block">
-			<img src="img/move.png" align="center" width="45px">
-			<h4 align="center" style="color: #0555CC;font-size: 18px;line-height: 22px;" class="how-to-get-better-text">Альп клуб «Олимп»</h4>
+			<img src="img/how-to-get-better-olimp.png" class="how-to-get-better-img">
+			<h4 align="center" style="color: #0555CC;" class="how-to-get-better-text how-to-get-better-caption">Альп клуб «Олимп»</h4>
 			<p align="center" class="how-to-get-better-text">Подойдет любителям покорять вершины, так как здесь возрождаются традиции туризма, можно обучиться промальпинизму, скалолазанию, а также отправиться в поход или экспедицию и покорить Эверест.</p>
 		</div>
 		<div class="col-sm how-to-get-better-block">
-			<img src="">
-			<h4 align="center" style="color: #FF0D0D;font-size: 18px;line-height: 22px;" class="how-to-get-better-text">Секция «Пожарно – прикладного спорта»</h4>
+			<img src="img/how-to-get-better-section-of-fire.png" class="how-to-get-better-img">
+			<h4 align="center" style="color: #FF0D0D;" class="how-to-get-better-text how-to-get-better-caption">Секция «Пожарно – прикладного спорта»</h4>
 			<p align="center" class="how-to-get-better-text">Эта секция для активных ребят, любителей физической культуры с элементами специальной подготовки, потому что здесь проходят пожарные эстафеты, боевые развертывания, преодоления препятствий и много другое.</p>
 		</div>
 		<div class="col-sm how-to-get-better-block">
-			<img src="">
-			<h4 align="center" style="color: #0555CC;font-size: 18px;line-height: 22px;" class="how-to-get-better-text">Всероссийский студенческий корпус спасателей</h4>
+			<img src="img/how-to-get-better-vseros-corpus-spasateley.png" class="how-to-get-better-img" style="margin-left:30px;">
+			<h4 align="center" style="color: #0555CC;" class="how-to-get-better-text how-to-get-better-caption">Всероссийский студенческий корпус спасателей</h4>
 			<p align="center" class="how-to-get-better-text">Подойдет для отважных и смелых ребят, которым прийдется по вкусу участвовать в предупреждении и ликвидации ЧС. Корпус осуществляет гражданское и патриотическое воспитание молодежи России; оказывает содействие Правительству в решении основных задач государственной молодежной политики.
 </p>
 		</div>
 		<div class="col-sm how-to-get-better-block">
-			<img src="">
-			<h4 align="center" style="color: #FF0D0D;font-size: 18px;line-height: 22px;" class="how-to-get-better-text">Секция боевых искусств</h4>
+			<img src="img/how-to-get-better-boevie-iskusstva.png" class="how-to-get-better-img">
+			<h4 align="center" style="color: #FF0D0D;" class="how-to-get-better-text how-to-get-better-caption">Секция боевых искусств</h4>
 			<p align="center" class="how-to-get-better-text">Здесь точно понравится тем, кто увлекается боевыми искусствами, ведь здесь обучают боксу, кикбоксингу, вольной борьбе, греко- римской борьбе, армейскому рукопашному бою, ММА. И все это в свободное от учебы время абсолютно бесплатно  с мастерами спорта и мастерами спорта международного класса.</p>
 		</div>
 		<div class="col-sm how-to-get-better-block">
-			<img src="">
-			<h4 align="center" style="color: #0555CC;font-size: 18px;line-height: 22px;" class="how-to-get-better-text">Центр специальной подготовки «Витязь»</h4>
+			<img src="img/how-to-get-better-vitaz.png" class="how-to-get-better-img">
+			<h4 align="center" style="color: #0555CC;" class="how-to-get-better-text how-to-get-better-caption">Центр специальной подготовки «Витязь»</h4>
 			<p align="center" class="how-to-get-better-text">Восхищаетесь работой спецназа? Здесь есть возможность пройти настоящую огневую, физическую, высотную, тактическую, медицинскую подготовку по нормативам спецназа. По окончании курсанты подвергаются испытаниям с прохождением специальной полосы препятствий. Успешно прошедшим испытания выдаётся сертификат. Для курсантов колледжа такая подготовка осуществляется бесплатно.</p>
 		</div>
 	</div>
-	<div class="row">
+	<div class="row justify-content-between">
         <div class="col-sm how-to-get-better-block">
-			<img src="/move.png">
-			<h4 align="center" style="color: #FF0D0D;font-size: 18px;line-height: 22px;" class="how-to-get-better-text">Форма под каждого студента</h4>
+			<img src="img/how-to-get-better-form-for-everyone.png" class="how-to-get-better-img">
+			<h4 align="center" style="color: #FF0D0D;" class="how-to-get-better-text how-to-get-better-caption">Форма под каждого студента</h4>
 			<p align="center" class="how-to-get-better-text">Инфолайн дает возможность пошить форму индивидуально под каждого абитуриента, ведь главное в форме, чтобы она удобно сидела и не мешала учебе!</p>
 		</div>
 		<div class="col-sm how-to-get-better-block">
-			<img src="">
-			<h4 align="center" style="color: #0555CC;font-size: 18px;line-height: 22px;" class="how-to-get-better-text">Футбольный, баскетбольный, волейбольный клубы</h4>
+			<img src="img/how-to-get-better-sport.png" class="how-to-get-better-img">
+			<h4 align="center" style="color: #0555CC;" class="how-to-get-better-text how-to-get-better-caption">Футбольный, баскетбольный, волейбольный клубы</h4>
 			<p align="center" class="how-to-get-better-text">Подойдёт активным ребятам, которые не представляют свою жизнь без спорта. Здесь может улучшить свои спортивные показатели и выступать за футбольный, волейбольный и баскетбольный клуб «Инфолайн».</p>
 		</div>
 		<div class="col-sm how-to-get-better-block">
-			<img src="">
-			<h4 style="color: #FF0D0D;font-size: 18px;line-height: 22px;" align="center" class="how-to-get-better-text">Бассейн</h4>
+			<img src="img/how-to-get-better-swimming-pool.png" class="how-to-get-better-img">
+			<h4 style="color: #FF0D0D;" align="center" class="how-to-get-better-text how-to-get-better-caption">Бассейн</h4>
 			<p align="center" class="how-to-get-better-text">Здесь понравится профессиональным пловцам, мастерам по прыжкам в воду и любителям поплескаться в тёплой водичке. Бассейн находится прямо напротив колледжа, имеет - 50м плавательный и 25м прыжковой; есть тренажёрный зал и зал для хореографии. Студентам колледжа «Инфолайн» предлагается хорошая скидка.</p>
 		</div>
 		<div class="col-sm how-to-get-better-block">
-			<img src="">
-			<h4 align="center" style="color: #0555CC;font-size: 18px;line-height: 22px;" class="how-to-get-better-text">Творческая студия</h4>
+			<img src="img/how-to-get-better-tvorchestvo.png" class="how-to-get-better-img">
+			<h4 align="center" style="color: #0555CC;" class="how-to-get-better-text how-to-get-better-caption">Творческая студия</h4>
 			<p align="center" class="how-to-get-better-text">Эта студия для ярких и творческий студентов, которые любят блистать на сцене.  Здесь можно обучиться вокальному и ораторским искусству, театральному мастерству и сценическому танцу, а также научиться играть на новом музыкальном инструменте.  Коллектив выезжает на фестивали и мероприятия по всей России и завоевывает первые места.
 </p>
 		</div>
 		<div class="col-sm how-to-get-better-block">
-			<h4 align="center" style="color: #FF0D0D;font-size: 18px;line-height: 22px;" class="how-to-get-better-text">Фото и кино кружок</h4>
+			<img src="img/how-to-get-better-photos.png" class="how-to-get-better-img">
+			<h4 align="center" style="color: #FF0D0D;" class="how-to-get-better-text how-to-get-better-caption">Фото и кино кружок</h4>
 			<p align="center" class="how-to-get-better-text">Хочешь стать крутым оператором?
 Тебе сюда. В кружке преподаются основы выстраивания кадра и правила съемки и монтажа(техника для съемок предоставляется колледжем), также с недавних пор ребята могут научиться полетам на квадрокоптере.</p>
 		</div>
